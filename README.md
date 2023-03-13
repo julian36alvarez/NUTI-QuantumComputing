@@ -43,4 +43,8 @@ activate nuti_quantumcomputing
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Project created for demonstration
+Project created for Nuti's class Quantum Computing initiative.
+
+
+
+
