@@ -11,7 +11,7 @@ dependencies:
   - pathlib
   - pip
   - pyprojroot
-  - python=The project involves designing and implementing a quantum version of the traditional convolutional neural network (CNN), which is a popular and effective technique for image processing and analysis in classical computing. In the quantum version of CNN, the convolution operation is performed using quantum ga1
+  - python=3.7
   - pip:
     - pyhere
     
