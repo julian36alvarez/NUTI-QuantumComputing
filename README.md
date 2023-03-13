@@ -42,6 +42,16 @@ activate nuti_quantumcomputing
         │
         └── README.md          <- The top-level README for developers using this project.
 
+# The Quantum Convolution Neural Network
+
+## Introduction
+
+The Quantum Convolution Neural Network (QCNN) is a project under the NUTI-QuantumComputing initiative that aims to explore the potential of quantum computing in the field of image recognition and computer vision.
+
+## Components of a QCNN
+
+
+
 ---
 Project created for NUTI's Quantum Computing initiative course.
 
