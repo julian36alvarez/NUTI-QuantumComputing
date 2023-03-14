@@ -25,13 +25,6 @@ mamba env create -f environment.yml
 activate nuti_quantumcomputing
 ```
 
-and
-
-    pip install qiskit[machine-learning]
-    
-and
-
-    pip install matplotlib
 
 ## Project organization
 
