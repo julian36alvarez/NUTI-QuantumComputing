@@ -25,6 +25,10 @@ mamba env create -f environment.yml
 activate nuti_quantumcomputing
 ```
 
+and
+
+    pip install qiskit[machine-learning]
+
 ## Project organization
 
     nuti_quantumcomputing
