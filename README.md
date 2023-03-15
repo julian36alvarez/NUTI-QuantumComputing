@@ -92,7 +92,7 @@ The subsequent phase involves constructing the model with the training data. The
     
  ![image](https://user-images.githubusercontent.com/31891276/225425042-df07df0d-77e0-4a66-aaff-7326c374330b.png)
     
- ![image](https://user-images.githubusercontent.com/31891276/225425374-32914fb4-a1c7-422e-9e2e-ac26534fc5de.png)
+![image](https://user-images.githubusercontent.com/31891276/225427574-113cd8a9-3424-4654-ba48-5df56f464347.png)
 
 ## Test QCNN
     
