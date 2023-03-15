@@ -47,10 +47,17 @@ activate nuti_quantumcomputing
 
 ## Introduction
 
-The Quantum Convolution Neural Network (QCNN) is a project under the NUTI-QuantumComputing initiative that aims to explore the potential of quantum computing in the field of image recognition and computer vision.
+Convolutional Neural Networks (CNNs) are a type of artificial neural network that excel at detecting features and patterns in input data, particularly in image recognition and audio processing tasks. They are a widely used subclass of neural networks due to their ability to automatically learn hierarchical representations of data through convolutional layers.
+
+Quantum Convolutional Neural Networks (QCNNs) behave similarly to Classical Convolutional Neural Networks (CCNNs), with the input image first encoded into a quantum circuit using a feature map. Alternating convolutional and pooling layers are then applied to the circuit to reduce its dimensionality, with the final classification of the image determined by measuring the output of a single qubit. The Quantum Convolutional Layer consists of two-qubit unitary operators that recognize relationships between the qubits, while the Quantum Pooling Layer reduces the number of qubits by disregarding certain qubits in specific layers. Each layer in the QCNN contains parametrized circuits, which are adjusted during training to minimize the loss function of the network.
 
 ## Components of a QCNN
 
+$U = (A_1 \otimes A_2) \cdot N(\alpha, \beta, \gamma) \cdot (A_3 \otimes A_4)$
+
+where $A_j \in \text{SU}(2)$, $\otimes$ is the tensor product, and $N(\alpha, \beta, \gamma) = exp(i[\alpha \sigma_x\sigma_x + \beta \sigma_y\sigma_y + \gamma \sigma_z\sigma_z ])$, where $\alpha, \beta, \gamma$ are the parameters that we can adjust. 
+
+![image](https://user-images.githubusercontent.com/31891276/225196086-30920a25-ee24-446a-9be6-a1ff7116db14.png)
 
 
 ---
